@@ -1,133 +1,90 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">    
-    <title>Assignment 2</title>   
-    
-    <style>  
-    @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alkalami&family=Cinzel:wght@500&family=Hind+Siliguri:wght@600&family=Merriweather:wght@700&family=Poppins:wght@200&family=Roboto&family=Roboto+Mono:wght@300&display=swap');
-    *{
-        margin: 0;
-        padding: 0;
-        font-family: 'Abyssinica SIL', serif;
-    }
-        body{  
-            font-family: Calibri;  
-        }  
-        input[type="text"] {  
-            width: 250px;  
-        }  
-        input[type="submit"], input[type="reset"] {  
-            width: 77px;  
-            height: 27px;  
-            position: relative;left: 180px;  
-        }  
-        form{  
-            text-align: center;  
-            font-family: Calibri;  
-            font-size: 20px;  
-            border: 3px solid black;  
-            width: 600px;  
-            margin: 20px auto;  
-        }  
-        td {  
-            padding: 10px;  
-        }  
-        td:first-child {  
-            text-align: right;  
-            font-weight: bold;  
-        }  
-        td:last-child {  
-            text-align: left;  
-        }
-        .d1{
-            display: flex;
-        }
-        h2{
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assignment2.css">
+</head>
+<body>
+    <p style="color: red;"> this is  first paragraph</p>
+    <p style="background-color: green;"> this is  first  <i> second</i></p>
+    <p> this is  first  <b> third</b></p>
+    <p"> this is  first  <u> fourth</u></p>
 
-        }
-    </style> 
-</head>    
-<body id="main" onload="setInterval(bg,5000)" style="background-color: yellow;"> 
-      <div class="resi">
-    <form method="" action="file:///home/aman/Documents/index.html?fname=&amp;lname=&amp;address=&amp;email=&amp;mobile=&amp;course=select+course&amp;submit=Submit" name="reg_form" onsubmit="return validate()">    
-        <h2>Registration Form</h2>    
-        <table>    
-            <tbody><tr>    
-                <td><label>First Name: </label></td>   
-                <td>    
-                    <input type="text" name="fname" placeholder="First Name">    
-                </td>    
-            </tr>    
-            <tr>    
-                <td><label>Last Name: </label></td>    
-                <td>    
-                    <input type="text" name="lname" placeholder="Last Name">    
-                </td>    
-            </tr>    
-            <tr>    
-                <td><label>Address: </label></td>    
-                <td>    
-                    <input type="textarea" size="40" name="address" placeholder="Address">    
-                </td>    
-            </tr>    
-            <tr>    
-                <td><label>Gender: </label></td>    
-                <td>    
-                    <input type="radio" name="gender" value="male">Male    
-                    <input type="radio" name="gender" value="femele">Female    
-                </td>    
-            </tr>    
-            <tr>    
-                <td><label>Email Id: </label></td>    
-                <td>    
-                    <input type="text" name="email" placeholder="example@gmail.com">    
-                </td>    
-            </tr>    
-            <tr>    
-                <td><label>Mobile: </label></td>    
-                <td>    
-                    <input type="number" name="mobile">    
-                </td>    
-            </tr>    
-            <tr>    
-            <td><label>Course: </label></td>    
-                <td>    
-                    <select name="course">    
-                        <option value="select course">select course</option>    
-                        <option value="BCA">BCA</option>    
-                        <option value="MCA">MCA</option>    
-                        <option value="B-TECH">B-TECH</option>    
-                        <option value="MBA">MBA</option>    
-                    </select>    
-                </td>    
-            </tr>    
-            <tr>     
-                <td class="d1">    
-                    <input type="submit" name="submit" value="Submit">    
-                    <input type="reset" name="reset" value="Reset">    
-                </td>    
-            </tr>             
-        </tbody></table>    
-    </form>    
+
+    <div class="b1">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias numquam veniam temporibus eius laboriosam dolores natus necessitatibus, nesciunt, molestiae illo perspiciatis voluptatem magni doloremque eveniet ullam quasi corporis quaerat cupiditate.</p>
+    </div>
+
+    <div class="b2">
+        <label for=""> Enter your name</label>
+        <input type="text"> 
+        <br>
+
+        <label for=""> Enter your age</label>
+        <input type="date">
+        <br>
+
+        <label for=""> Enter your address </label>
+        <input type="text">
+        <br>
+
+        <label for=""> your favorit subject</label>
+        <input type="text"> <br>
+
+        <label for="" > your favorit movie </label>
+        <input type="text"> <br>
+
+        <label for=""> your favorit singer</label>
+        <input type="text">
+        <br>
+
+    </div>
+
+
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> I have a bike</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2"> I have a car</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> I have a boat</label><br>
+    
+
+
+<div class="b4" id="b4">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sit aliquam quaerat natus expedita earum voluptatibus fugit distinctio. Harum nobis quo a modi qui blanditiis quas cupiditate aperiam nam quidem.</p>
 </div>
-<script type="text/javascript">  
- 
 
 
-       
-    var colors=["red","red","red","red","yellow","yellow","yellow","yellow","orange","orange","orange","orange"];
-    var i=0;
-    function bg(){
-        document.getElementById("main").style.backgroundColor=colors[i];
+<div class="b5">
+    <label for=""> enter your username</label>
+    <br>
+    <input type="text" id="user">
+    <br>
+    <label for=""> enter password</labedl>
         
-        i=i+1;
-        if(i>colors.length){
-            i=0;
-        }
+        <br>
+        <input type="password" id="pass">
+
+        <button onclick="fun1()"> Submit</button>
+</div>
+<script type="text/javascript">
+    document.getElementById("b4").style.animation = "time 0s 1 4s"
+     
+function fun1(){
+    let user  = document.getElementById("user").value;
+    let pass = document.getElementById("pass").value;
+    if( user===""){
+        alert("please enter your name");
+
     }
-
-   
-</script> 
+    else if(pass===""){
+        alert(" please enter password");
+    }
     
+}
 
-
-
-</body></html>
+</script>
+</body>
+</html>
